@@ -13,6 +13,9 @@ import "fmt"
 	var temp  []int
 
 一个为nil的slice，除了不能索引外，其他的操作都是可以的，
+为nil的切片，其len()函数可用，且len()=0
+
+
 当你需要填充值的时候可以使用append函数，slice会自动进行扩充。
 那么为nil的slice的底层结构是怎样的呢？
  */

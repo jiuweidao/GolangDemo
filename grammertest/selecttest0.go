@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	var c1, c2, c3 chan int
 	var i1, i2 int
-	var a1 ,a2 int =2,4
+	//var a1 ,a2 int =2,4
 	select {
 	case i1 = <-c1:
 		fmt.Printf("received ", i1, " from c1\n")
@@ -17,8 +17,8 @@ func main() {
 		} else {
 			fmt.Printf("c3 is closed\n")
 		}
-	case a1<a2:
-		fmt.Printf("输出了")
+	/*case a1<a2:
+		fmt.Printf("输出了")*/
 	default:
 		fmt.Printf("no communication\n")
 	}

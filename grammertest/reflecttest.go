@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 /*
-nil只能赋值给指针、channel、func、interface、map或slice类型的变量
+	nil只能赋值给指针、channel、func、interface、map或slice类型的变量
  */
 
 

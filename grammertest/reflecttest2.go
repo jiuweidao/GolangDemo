@@ -11,11 +11,13 @@ import (
 	if v, ok := s.(string); ok {
 		fmt.Println(v)
 	}
+2.var a interface,一个未给接口赋值(结构体)的接口的type是nil
+	reflect.typeof(a)=nil
 invalid type assertion: s.(string) (non-interface type string on left)
 
 如果是指针，判断类型，必须通过映射 然后取elem.type 才能判断出是否是和结构体相同类型
 以下未正确示范
-masssgePoint := &Massage{name:"xiao",age:10}
+	masssgePoint := &Massage{name:"xiao",age:10}
 	valueMassage := reflect.ValueOf(masssgePoint)
 	elem := valueMassage.Elem()
 	if elem.Type() == reflect.TypeOf(Massage{}){

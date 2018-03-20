@@ -12,8 +12,5 @@ func main()  {
 	fmt.Println("uuidUtil.GetUniqueNumber():",uuidUtil.GetUniqueNumber())
 	fmt.Println("uuidUtil.GetUUID():",uuidUtil.GetUUID())
 
-	sess := session.New(&aws.Config{
-		Region:      aws.String(getS3Region()),
-		Credentials: credentials.NewStaticCredentials(awsAccessKeyId, awsSecretAccessKey, ""),
-	})
+
 }
