@@ -1,0 +1,26 @@
+package: .
+import:
+- package: github.com/anker-dev/infra
+  repo: https://github.com/anker-dev/infra.git
+  vcs: git
+  subpackages:
+  - database
+  - localUtil
+  - log
+  - validationUtil
+  - versionUtil
+- package: github.com/astaxie/beego
+  repo: https://github.com/astaxie/beego.git
+  vcs:  git
+  subpackages:
+  - context
+  - context/param
+- package: github.com/beego/i18n
+  repo: https://github.com/beego/i18n.git
+  vcs:  git
+- package: github.com/jinzhu/gorm
+  repo: https://github.com/jinzhu/gorm.git
+  vcs:  git
+- package: golang.org/x/text
+  subpackages:
+  - language

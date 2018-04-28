@@ -7,9 +7,11 @@ import "fmt"
  */
 
 func main() {
-	if b:=3; 8> b {
-		fmt.Println("a 比 10 大")
-	} else {
-		fmt.Println("a 比 10 小")
+
+	a:=3
+	if a==2 {
+		fmt.Println("a ==2")
+	} else if a==3{
+		fmt.Println("a =3")
 	}
 }

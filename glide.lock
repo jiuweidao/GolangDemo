@@ -1,0 +1,139 @@
+hash: b761bb1b887c2b0a609cfcb6e352bcb616d7ee9e12c9a9c7f5a342f6f24193fd
+updated: 2017-12-27T13:56:39.192852513+08:00
+imports:
+- name: github.com/anker-dev/infra
+  version: 97457e6939ba75a61994c4a6e4df35b1c04e9baf
+  repo: https://github.com/anker-dev/infra.git
+  vcs: git
+  subpackages:
+  - confUtil
+  - cryptoUtil
+  - database
+  - localUtil
+  - log
+  - redisUtil
+  - s3Util
+  - tests/base
+  - timeUtil
+  - uuidUtil
+  - validationUtil
+  - versionUtil
+- name: github.com/astaxie/beego
+  version: 3162da131da68f38e85765781c9d1cc419963e67
+  repo: https://github.com/astaxie/beego.git
+  vcs: git
+  subpackages:
+  - config
+  - context
+  - context/param
+  - grace
+  - httplib
+  - logs
+  - plugins/cors
+  - session
+  - toolbox
+  - utils
+  - validation
+- name: github.com/aws/aws-sdk-go
+  version: 6eab70e3edd8e65a17a1dbf9a2eeaf83f06281d0
+  subpackages:
+  - aws
+  - aws/awserr
+  - aws/awsutil
+  - aws/client
+  - aws/client/metadata
+  - aws/corehandlers
+  - aws/credentials
+  - aws/credentials/ec2rolecreds
+  - aws/credentials/endpointcreds
+  - aws/credentials/stscreds
+  - aws/defaults
+  - aws/ec2metadata
+  - aws/endpoints
+  - aws/request
+  - aws/session
+  - aws/signer/v4
+  - internal/shareddefaults
+  - private/protocol
+  - private/protocol/query
+  - private/protocol/query/queryutil
+  - private/protocol/rest
+  - private/protocol/restxml
+  - private/protocol/xml/xmlutil
+  - service/s3
+  - service/s3/s3iface
+  - service/s3/s3manager
+  - service/sts
+- name: github.com/beego/i18n
+  version: e9308947f407a24aaa1e7dbe35a01931e99cb255
+  repo: https://github.com/beego/i18n.git
+  vcs: git
+- name: github.com/cihub/seelog
+  version: f561c5e57575bb1e0a2167028b7339b3a8d16fb4
+  subpackages:
+  - archive
+  - archive/gzip
+  - archive/tar
+  - archive/zip
+- name: github.com/disintegration/imaging
+  version: c3956f26e8f5f2370428d573648fedc717fbe51e
+- name: github.com/fluent/fluent-logger-golang
+  version: a8dfe4adfeaf7b985acb486f6b060ff2f6a17e91
+  subpackages:
+  - fluent
+- name: github.com/garyburd/redigo
+  version: e3f9a558354b9c5fc3f992b9e8076dd751038b9b
+  subpackages:
+  - internal
+  - redis
+- name: github.com/go-ini/ini
+  version: c787282c39ac1fc618827141a1f762240def08a3
+- name: github.com/go-sql-driver/mysql
+  version: 7785c74297136c027fdf2fd6f8931c0e19be8aa7
+- name: github.com/jinzhu/gorm
+  version: b1885a643b4977c9089d77eb07c0fd96591f94b8
+  repo: https://github.com/jinzhu/gorm.git
+  vcs: git
+- name: github.com/jinzhu/inflection
+  version: 1c35d901db3da928c72a72d8458480cc9ade058f
+- name: github.com/jmespath/go-jmespath
+  version: bd40a432e4c76585ef6b72d3fd96fb9b6dc7b68d
+- name: github.com/pborman/uuid
+  version: e790cca94e6cc75c7064b1332e63811d4aae1a53
+- name: github.com/philhofer/fwd
+  version: bb6d471dc95d4fe11e432687f8b70ff496cf3136
+- name: github.com/tinylib/msgp
+  version: a011d4dea24f46fcd895ddefb67037dce9d41742
+  subpackages:
+  - msgp
+- name: github.com/Unknwon/goconfig
+  version: 87a46d97951ee1ea20ed3b24c25646a79e87ba5d
+- name: golang.org/x/image
+  version: 334384d9e19178a0488c9360d94d183c1ef0f711
+  subpackages:
+  - bmp
+  - tiff
+  - tiff/lzw
+- name: golang.org/x/text
+  version: d69c40b4be55797923cec7457fac7a244d91a9b6
+  subpackages:
+  - internal/tag
+  - language
+testImports:
+- name: github.com/gopherjs/gopherjs
+  version: 444abdf920945de5d4a977b572bcc6c674d1e4eb
+  subpackages:
+  - js
+- name: github.com/jtolds/gls
+  version: 77f18212c9c7edc9bd6a33d383a7b545ce62f064
+- name: github.com/smartystreets/assertions
+  version: 0b37b35ec7434b77e77a4bb29b79677cced992ea
+  subpackages:
+  - internal/go-render/render
+  - internal/oglematchers
+- name: github.com/smartystreets/goconvey
+  version: e5b2b7c9111590d019a696c7800593f666e1a7f4
+  subpackages:
+  - convey
+  - convey/gotest
+  - convey/reporting
