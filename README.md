@@ -1,4 +1,3 @@
-# test
-testGithub
+# GOlang test
+go语言的测试用例
 
-这个创建用于测试git的respository
