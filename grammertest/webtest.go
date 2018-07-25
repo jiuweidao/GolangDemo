@@ -10,7 +10,7 @@ import (
 	简单的web应用
  */
 func hello(rw http.ResponseWriter, req *http.Request) {
-	io.WriteString(rw, "hello widuu")
+	io.WriteString(rw, "hello widuu123")
 }
 
 func main() {
